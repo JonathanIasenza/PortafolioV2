@@ -1,0 +1,37 @@
+.projects-title{
+    text-align: center;
+    margin-top: 5%;
+    font-family: "Montserrat";
+    text-shadow: 5px 5px 5px #000;
+}
+
+.container-div{
+    display: flex;
+    margin-top: 5%;
+    padding: 2%;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-shadow: 1px 1px 15px #000;
+    font-family: "Montserrat";
+}
+
+.git-link{
+    display: flex;
+    justify-content: center;
+}
+
+.link-link,
+.link-github{
+    transition: all .5s;
+}
+
+.link-link:hover{
+    color: rgb(141, 100, 168);
+}
+
+.link-github:hover{
+    color:rgb(161, 158, 194);
+}
+
+
+

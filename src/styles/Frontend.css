@@ -1,0 +1,85 @@
+.container-technologies{
+    justify-content: center;
+    margin: auto;
+    height: 200px;
+    margin-bottom: 5%;
+    font-family: "Montserrat";
+    text-shadow: 5px 5px 5px #000;
+}
+
+.cont-secondary{
+    flex-wrap: wrap;
+    display: flex;
+    height: 70%;
+    font-size: 26px;
+    flex-direction: column;
+    margin: 3%;
+    align-items: center;
+}
+
+.h1-technologies{
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.icon{
+    font-size: 52px;
+    transition: all .5s;
+    cursor:pointer;
+    padding-left: 2%;
+}
+
+
+.html5:hover{color: rgb(255, 123, 46)}
+.css3:hover{color:royalblue}
+.bootstrap{font-size: 45px;}
+.bootstrap:hover{color:rgb(91, 54, 160)}
+.javascript:hover{color:rgb(226, 223, 70)}
+.javascript{font-size: 45px;}
+.react:hover{color:cyan}
+.git:hover{color:rgb(255, 102, 0)}
+.github:hover{color:rgb(78, 78, 78)}
+.firebase{font-size: 45px}
+.firebase:hover{color:rgb(255, 157, 0)}
+.sass:hover{color:palevioletred}
+.jquery:hover{color:rgb(87, 87, 255)}
+
+
+
+.icon:hover {
+	-webkit-animation: shadow-pop-tr 0.3s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+    animation: shadow-pop-tr 0.3s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+}
+
+
+@keyframes shadow-pop-tr {
+  0% {
+            box-shadow: 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e;
+            transform: translateX(0) translateY(0);
+  }
+  100% {
+            box-shadow: 1px -1px #3e3e3e, 2px -2px #3e3e3e, 3px -3px #3e3e3e, 4px -4px #3e3e3e;
+            transform: translateX(-4px) translateY(4px);
+  }
+}
+
+
+@media (max-width:720px){
+    .cont-secondary{
+        display: flex;
+        height: 380px;
+        flex-direction: column;
+        margin: 2%;
+        align-items: center;
+    }
+
+    .container-technologies{
+        height: 420px;
+    }
+
+    .h1-technologies{
+        margin-bottom: 8%;
+    }
+    
+}
+

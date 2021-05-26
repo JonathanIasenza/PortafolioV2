@@ -1,0 +1,312 @@
+.title-aboutme{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    text-shadow: 6px 6px 8px #000;
+}
+
+.jonathan-title{
+    font-size: 3.2em;
+    white-space: pre-wrap;
+    white-space: -moz-pre-wrap;
+    white-space: -o-pre-wrap;
+}
+
+
+.about-title{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    text-shadow: 5px 5px 5px #000;
+    margin-bottom: 3%;
+    margin-top: 2%;
+}
+
+#separator-img{
+    max-width: 80%;
+    filter: invert(100%);
+    animation: 2s infinite alternate anim;
+}
+
+.separator-div{
+    display: flex;
+    justify-content: center;
+    filter: drop-shadow(5px 5px 5px rgb(46, 12, 100));
+}
+
+.about-descr{
+    text-align: justify;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    text-shadow: 4px 4px 4px #000;
+    font-weight: lighter;
+    background-color: rgba(0, 0, 0, 0.623);
+    border-radius: 10%;
+    padding: 5%;
+}
+
+.jona-cont img{
+    transition: all .5s;
+    max-width: 210px;
+    margin: 3%;
+    border-radius: 100%;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.377);
+}
+
+
+.jona-cont img:hover{
+    filter: grayscale(100%);
+    cursor: url("../images/mouse-new.png"),auto;
+
+}
+
+#about-me{
+height: 50px;
+}
+
+#btn-cv{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    color: #fff;
+}
+
+a:visited{
+    color:#fff;
+}
+
+a:link{
+    color:#fff;
+}
+
+a:hover{
+    text-decoration: none;
+    cursor: url("../images/mouse-new.png"),auto;
+}
+
+
+@keyframes anim{
+    0% {
+    margin-left:-5%;
+    }
+
+    100%{
+    margin-left:5%;
+    }
+}
+
+
+.bg-6{
+    background-color: #0e0e0e;
+}
+
+.glitch {
+    color: white;
+    font-size: 50px;
+    position: relative;
+    width: 800px;
+    text-align: center;
+    margin: 0 auto;
+    font-family: 'Varela', sans-serif;
+ }
+
+ @media (max-width:720px){
+     .glitch{
+         font-size: 40px;
+         width: auto;
+     }
+ }
+
+.glitch:after {
+    content: attr(data-text);
+    position: absolute;
+    left:0;
+    right: 2px;
+    margin: auto;
+    text-shadow: -1px 0 red;
+    top: 0;
+    color: white;
+    background: #0e0e0e;
+    overflow: hidden;
+    clip: rect(0, 900px, 0, 0);
+    animation: noise-anim 4s infinite linear alternate-reverse;
+}
+
+#gif{
+  width: 15%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+#mayusc{
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  cursor: pointer;
+  transition: all 2s;
+}
+
+#mayusc:hover{
+  color:rgb(139, 102, 240);
+  cursor: url("../images/mouse-new.png"),auto;
+}
+
+@media (max-width:720px){
+  #gif{
+    width: 40%;
+    margin-top: 5%;
+  }
+}
+
+.glitch:before {
+    content: attr(value);
+    position: absolute;
+    left: 3px;
+    right: 0;
+    text-shadow: 1px 0 blue;
+    top: 0;
+    color: white;
+    background: #0e0e0e;
+    overflow: hidden;
+    clip: rect(0, 900px, 0, 0);
+    animation: noise-anim-2 5s infinite linear alternate-reverse;
+}
+
+ @keyframes noise-anim {
+    0% {
+      clip: rect(51px, 9999px, 28px, 0);
+    }
+    5% {
+      clip: rect(70px, 9999px, 19px, 0);
+    }
+    10% {
+      clip: rect(92px, 9999px, 13px, 0);
+    }
+    15% {
+      clip: rect(85px, 9999px, 49px, 0);
+    }
+    20% {
+      clip: rect(45px, 9999px, 56px, 0);
+    }
+    25% {
+      clip: rect(26px, 9999px, 31px, 0);
+    }
+    30% {
+      clip: rect(62px, 9999px, 73px, 0);
+    }
+    35% {
+      clip: rect(34px, 9999px, 11px, 0);
+    }
+    40% {
+      clip: rect(26px, 9999px, 61px, 0);
+    }
+    45% {
+      clip: rect(34px, 9999px, 71px, 0);
+    }
+    50% {
+      clip: rect(35px, 9999px, 69px, 0);
+    }
+    55% {
+      clip: rect(92px, 9999px, 81px, 0);
+    }
+    60% {
+      clip: rect(26px, 9999px, 85px, 0);
+    }
+    65% {
+      clip: rect(2px, 9999px, 68px, 0);
+    }
+    70% {
+      clip: rect(54px, 9999px, 79px, 0);
+    }
+    75% {
+      clip: rect(35px, 9999px, 85px, 0);
+    }
+    80% {
+      clip: rect(70px, 9999px, 60px, 0);
+    }
+    85% {
+      clip: rect(32px, 9999px, 26px, 0);
+    }
+    90% {
+      clip: rect(94px, 9999px, 53px, 0);
+    }
+    95% {
+      clip: rect(99px, 9999px, 92px, 0);
+    }
+    100% {
+      clip: rect(42px, 9999px, 27px, 0);
+    }
+  }
+
+  @keyframes noise-anim-2 {
+    0% {
+      clip: rect(21px, 9999px, 49px, 0);
+    }
+    5% {
+      clip: rect(27px, 9999px, 52px, 0);
+    }
+    10% {
+      clip: rect(21px, 9999px, 70px, 0);
+    }
+    15% {
+      clip: rect(65px, 9999px, 25px, 0);
+    }
+    20% {
+      clip: rect(24px, 9999px, 10px, 0);
+    }
+    25% {
+      clip: rect(61px, 9999px, 64px, 0);
+    }
+    30% {
+      clip: rect(34px, 9999px, 47px, 0);
+    }
+    35% {
+      clip: rect(46px, 9999px, 93px, 0);
+    }
+    40% {
+      clip: rect(46px, 9999px, 9px, 0);
+    }
+    45% {
+      clip: rect(67px, 9999px, 36px, 0);
+    }
+    50% {
+      clip: rect(72px, 9999px, 20px, 0);
+    }
+    55% {
+      clip: rect(79px, 9999px, 26px, 0);
+    }
+    60% {
+      clip: rect(13px, 9999px, 87px, 0);
+    }
+    65% {
+      clip: rect(10px, 9999px, 25px, 0);
+    }
+    70% {
+      clip: rect(85px, 9999px, 11px, 0);
+    }
+    75% {
+      clip: rect(94px, 9999px, 35px, 0);
+    }
+    80% {
+      clip: rect(50px, 9999px, 86px, 0);
+    }
+    85% {
+      clip: rect(74px, 9999px, 67px, 0);
+    }
+    90% {
+      clip: rect(1px, 9999px, 40px, 0);
+    }
+    95% {
+      clip: rect(3px, 9999px, 48px, 0);
+    }
+    100% {
+      clip: rect(90px, 9999px, 23px, 0);
+    }
+  }
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');

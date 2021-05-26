@@ -1,0 +1,43 @@
+{
+    "app.nav-about": "About me",
+    "app.nav-projects":"Projects",
+    "app.nav-contact":"Contact",
+    "app.nav-tech": "Technologies",
+
+    "app.welcome" : "\nWeb Developer",
+
+    "app.about-title": "About me",
+    "app.about-p": "My name is Jonathan Sebastián Iasenza, I am 23 years old, I am passionate about technology from a very young age 💻. I like very much cook, I graduated as a chef and worked for years in gastronomy🍳. On my free time I usually play PC games and talk with friends. On As for my knowledge, I focus more on the Frontend always be Photoshop, CorelDraw among other design programs did well for me graphic, and although being a frontend developer is not just design,much of the User UX / UI experience is based on that. Also, I find myself studying some technologies and databases to have Backend knowledge. I took and continue to take courses in learning platforms like Udemy (with, or without certificate), Youtube or even Linkedin what offers some courses. I am a very hyperactive person and, yes ... I drink coffee.☕",
+    "app.download-cv": "Download my CV",
+
+    "app.contact": "Contact",
+    "app.placename": "Name...",
+    "app.placemail": "Email...",
+    "app.placeasunto": "Subject...",
+    "app.placemensaje": "Message...",
+    "app.enviar": "Submit",
+
+    "app.footer": "Web Developer, 2021",
+
+    "proy.title": "Projects",
+
+    "app.proy-1t": "What sould I do?",
+    "app.proy-1p": "Small test carried out for the Andreani company, it is a list of what to do made with React.js and Bootstrap, the information is saved in Local Storage so it is not lost tasks when refreshing the page.",
+
+    "app.proy-2t": "OP Calculator",
+    "app.proy-2p": "Simple calculator made with Javascript Vanilla, Bootstrap, and an HTML5 music player. It is 100% functional, and one of my first web applications made.",
+
+
+    "app.proy-3t":"Geometric Figures ",
+    "app.proy-3p": "Made with Javascript Vanilla, using libraries such as jQuery, Bootstrap, it allows adding geometric figures, filtering them, eliminating them, etc.",
+
+    "app.proy-4t": "Fitness App",
+    "app.proy-4p": "Made with React.js, React Router, Material UI, Hooks, etc. It has information on different exercises, and allows you to create personalized cards that are stored in local storage. The backend is made with Node using Express. The database is made with SQLite.",
+
+    "app.proy-5t": "Rock Bands!",
+    "app.proy-5p": "Made with React.js, React Router, Reactstrap, Hooks, an API is consumed, it consists of a login, and a table of different bands. It allows filtering, sorting, and clicking on each band providing information, including a button to view the albums of each one.",
+
+    "app.proy-6t": "Users List (CRUD)",
+    "app.proy-6p": "Made with React.js, it consists of a fake login (JSON), it consumes a small API made with Express, and then it allows you to view a table of different default users saved in a database created with MongoDB in the cloud. It is allowed to create, delete, or edit these users. "
+
+}

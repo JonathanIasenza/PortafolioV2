@@ -1,0 +1,18 @@
+html,body{
+    background-image: url("../images/fondo.jpg");
+    background-size: cover;
+    background-position-y: 100%;
+    background-attachment: fixed; 
+    color:rgb(255, 255, 255);
+    scroll-behavior: smooth;
+    cursor: url("../images/cursor-new.png"),auto;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+
+
+
+

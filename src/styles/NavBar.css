@@ -1,0 +1,53 @@
+#logo{
+    max-width: 100px;
+    filter: drop-shadow(2px 2px 10px #000);
+}
+
+
+.navbar-brand{
+    margin-left: 20px;
+}
+
+.nav-bar{
+    margin-bottom: 135px;
+}
+
+.btn-lang{
+   background-color: inherit;
+   outline: none;
+   filter:grayscale(100%);
+   border: none;
+}
+
+.btn-lang:hover{
+    cursor: url("../images/mouse-new.png"),auto;
+}
+
+.btn-lang img:hover{
+    filter: brightness(110%);
+}
+
+.btn-lang:focus{
+    outline: none;
+    border: none;
+}
+
+#btn-es{
+filter:grayscale(0%);
+}
+
+.mr-auto{
+    margin: auto;
+}
+
+@media (max-width:720px){
+    #logo{
+        max-width: 50px;
+    }
+}
+
+@media (max-width:920px){
+    #logo{
+        max-width: 50px;
+    }
+}

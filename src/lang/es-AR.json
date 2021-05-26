@@ -1,0 +1,43 @@
+{
+    "app.nav-about": "Sobre mí",
+    "app.nav-projects":"Proyectos",
+    "app.nav-contact":"Contacto",
+    "app.nav-tech": "Tecnologías",
+
+    "app.welcome" : "\nDesarrollador Web",
+
+    "app.about-title": "Sobre mí",
+    "app.about-p": "Mi nombre es Jonathan Sebastián Iasenza, tengo 23 años, soy apasionado por la tecnología desde muy chico 💻. Me gusta mucho cocinar, me recibí de chef y trabajé por años en gastronomía🍳 . En mis tiempos libres suelo jugar juegos de PC y hablar con amigos. En cuánto a mis conocimientos, me enfoco más en el Frontend siempre se me dió bien Photoshop, CorelDraw entre otros programas de diseño gráfico, y si bien, ser desarrollador frontend no es sólo diseño, gran parte de la User UX/UI experience se basa en éso. Además me encuentro estudiando algunas tecnologías y bases de datos para tener conocimientos de Backend. Realizé y sigo realizando cursos en plataformas de aprendizaje cómo Udemy (con, o sin certificado), Youtube o incluso Linkedin qué ofrece algunos cursos. Soy una persona muy hiperactiva y, si... tomo café.☕",
+    "app.download-cv": "Descargá mí CV",
+
+    "app.contact": "Contacto",
+    "app.placename": "Nombre...",
+    "app.placemail": "Email...",
+    "app.placeasunto": "Asunto...",
+    "app.placemensaje": "Mensaje...",
+    "app.enviar": "Enviar",
+    
+    "app.footer": "Desarrollador Web, 2021",
+
+
+    "proy.title": "Proyectos",
+
+    "app.proy-1t": "¿Qué debo realizar?",
+    "app.proy.1p": "Pequeño test realizado para la empresa Andreani, se trata de una lista de los qué haceres realizada con React.js y Bootstrap, la información se guarda en el Local Storage así qué no se pierden las tareas al refrescar la página.",
+
+    "app.proy-2t": "Calculadora OP",
+    "app.proy-2p": "Calculadora simple realizada con Javascript Vanilla, Bootstrap, y un reproductor de música en HTML5. Es 100% funcional, y una de mis primeras aplicaciones web realizadas.",
+
+    "app.proy-3t":"Figuras Geométricas",
+    "app.proy-3p": "Realizada con Javascript Vanilla, usando librerías cómo jQuery, Bootstrap, permite agregar figuras geométricas, filtrarlas, eliminarlas, etc.",
+    
+    
+    "app.proy-4t": "Aplicación de Ejercicios",
+    "app.proy-4p": "Realizada con React.js, React Router, Material UI, Hooks, etc. Tiene información de distintos ejercicios, y permite crear tarjetas personalizadas qué se guardan en local storage. El backend está hecho con Node usando Express. La base de datos está realizada con SQLite.",
+
+    "app.proy-5t": "¡Bandas de Rock!",
+    "app.proy-5p": "Realizada con React.js, React Router, Reactstrap, Hooks, se consume una API, consiste en un login, y una tabla de diferentes bandas. Permite filtrar, ordenar, y clickear sobre cada banda brindando información, incluyendo un botón para ver los albumes de cada una.",
+
+    "app.proy-6t": "Lista de usuarios (CRUD)",
+    "app.proy-6p": "Realizada con React.js, consiste en un fake login (JSON), consume una pequeña API realizada con Express, y luego permite visualizar una tabla de distintos usuarios predeterminados guardados en una base de datos creada con MongoDB en la nube. Se permite crear, eliminar, o editar dichos usuarios."
+}

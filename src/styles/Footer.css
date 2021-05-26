@@ -1,0 +1,47 @@
+.footer-container{
+    width: 100%;
+    margin-top: 2%;
+    background-color:rgba(36, 36, 36, 0.678);
+    color:#fff;
+    position: absolute;
+    text-align: center;
+    justify-content: center;
+    font-family: "Arial";
+    text-shadow: 1px 1px 1px #000;
+}
+
+.title-footer{
+    margin-top: 10px;
+}
+
+.parrafos{
+    display:inline-flex;
+    justify-content: space-between;
+    width: 270px;
+    margin-bottom: 0;
+}
+
+.icons{
+    cursor:pointer;
+}
+
+#linkedin,
+#github,
+#whatsapp{
+    transition: all .4s;
+    cursor: url("../images/mouse-new.png"),auto;
+}
+
+#linkedin:hover{color:rgb(77, 138, 236)}
+#github:hover{color:rgb(177, 177, 177)}
+#whatsapp:hover{color:rgb(15, 161, 15)}
+
+
+cel{
+    color:rgb(144, 121, 180)
+}
+
+#logo-footer{
+    max-width: 80px;
+    margin-top: 20px;
+}

@@ -1,0 +1,35 @@
+.contact-title{
+text-align: center;
+margin-top: 5%;
+margin-bottom: 5%;
+font-family: "Montserrat";
+text-shadow: 5px 5px 5px #000;
+}
+
+.form-container{
+    max-width:800px;
+    margin: auto;
+    margin-top: -5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 5%;
+}
+
+#asunto{
+    margin: left;
+    display: inline;
+    max-width: 200px;
+}
+
+.btn{
+    background-color: #50416b;
+    color: #fff;
+    border:none;
+}
+
+.btn:hover{
+    border:none;
+    background-color: #49356d;
+    color:#fff;
+    cursor: url("../images/mouse-new.png"),auto;
+}
